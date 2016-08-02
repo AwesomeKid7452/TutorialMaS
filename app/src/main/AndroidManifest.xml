@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.awesomekid.tutorialms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TutorialMS">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Teacher" />
+        <activity android:name=".Student" />
+        <activity android:name=".Admin" />
+        <activity android:name=".AdminTeacher" />
+        <activity android:name=".AdminStudent" />
+        <activity android:name=".AdminSubject" />
+        <activity android:name=".AdminPayment" />
+        <activity android:name=".AdminSchedule" />
+        <activity android:name=".UpdatePassword" />
+        <activity android:name=".TeacherStudent" />
+        <activity android:name=".TeacherSchedule" />
+        <activity android:name=".TeacherViewStudent" />
+        <activity android:name=".StudentSchedule" />
+        <activity android:name=".StudentPayment" />
+        <activity android:name=".StudentTeacher" />
+        <activity android:name=".AddTeacher" />
+        <activity android:name=".RemoveTeacher" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".RemoveStudent" />
+        <activity android:name=".RemoveSubject" />
+        <activity android:name=".AssignTeacher" />
+        <activity android:name=".AssignStudent" />
+        <activity android:name=".AddSubject2" />
+        <activity android:name=".AddSubject"></activity>
+    </application>
+
+</manifest>
